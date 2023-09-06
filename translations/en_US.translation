@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Express Setup --></label>
+        <name>Express_Setup</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Platform --></label>
+        <name>Platform</name>
+    </customApplications>
+    <customTabs>
+        <label><!-- DevOps Exchange by Copado --></label>
+        <name>DevOps_Exchange_by_Copado</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>ClearAllData</name>
+            </choices>
+            <choices>
+                <name>ClearInstances</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>AllWarning</name>
+                </fields>
+                <name>AllDataWarning</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Clear_Data</name>
+                </fields>
+                <name>Clear_Choice_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorMessage</name>
+                </fields>
+                <name>ErrorScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>InstancesWarningMessage</name>
+                </fields>
+                <name>InstancesWarning</name>
+            </screens>
+        </flows>
+        <fullName>Clear_Data_Choice_Screen_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Enforce_Shared_Org_Credential_Model_Default_TRUE</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Report a Bug --></label>
+        <name>Report_a_Bug</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>
